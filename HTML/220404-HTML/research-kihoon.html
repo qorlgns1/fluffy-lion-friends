@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>input practice</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>나와 잘 맞는 회사는?</h1>
+      <p>가고 싶은 회사에 대한 호감도를 조사합니다.</p>
+      <section>
+        <button></button> <!-- 눈 아이콘 이미지 넣기-->
+        <p>rlgns1129@naver.com (공유되지 않음)</p>
+        <a href="#">계정 전환</a>
+        <a href=""></a> <!-- 클라우드 이미지 링크? 넣으려 a태그 사용 -->
+      </section>
+    </header>
+    <main class="research">
+      <!-- legend는 radio나 checkbox에서는 문단을 구분해주기 위해 사용했고 나머지는 input 태그랑 label을 연결해서 label태그 안에 legend처럼 사용할 수 있기에 legend를 따로 사용하지 않음. -->
+      <form action="" method="post">
+        <fieldset>
+          <legend>다음 문자중에 왠지 마음에 드는 것을 하나 고르세요.</legend>
+          <input type="radio" name="like-one" id="ne" value="네">
+          <label for="ne">네</label>
+          <input type="radio" name="like-one" id="ka" value="카">
+          <label for="ka">카</label>
+          <input type="radio" name="like-one" id="la" value="라">
+          <label for="la">라</label>
+          <input type="radio" name="like-one" id="co" value="쿠">
+          <label for="co">쿠</label>
+          <input type="radio" name="like-one" id="bae" value="베">
+          <label for="bae">베</label>
+        </fieldset>
+        <fieldset>
+          <legend>친구와 문자를 합니다. 다음중 어떤 메신저를 이용하시겠습니까? 모두 골라주세요.</legend>
+          <input type="checkbox" name="choice-messenger" id="kakaotalk" value="카카오톡">
+          <label for="kakaotalk">카카오톡</label>
+          <input type="checkbox" name="choice-messenger" id="line" value="라인">
+          <label for="line">라인</label>
+          <input type="checkbox" name="choice-messenger" id="instagram" value="인스타그램 디엠">
+          <label for="instagram">인스타그램 디엠</label>
+          <input type="checkbox" name="choice-messenger" id="nateon" value="네이트온">
+          <label for="nateon">네이트온</label>
+          <input type="checkbox" name="choice-messenger" id="buddybuddy" value="buddybuddy">
+          <label for="bu">버디버디</label>
+        </fieldset>
+        <fieldset>
+          <label for="plan">면접에서 자신의 포부를 한 문장으로 얘기한다면?</label>
+          <input type="text" id="plan" name="plan" placeholder="내 답변" required>
+        </fieldset>
+        <fieldset>
+          <label for="speak-myself">당신은 지금 한 기업의 최종면접을 앞두고 있습니다. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은 말은?</label>
+          <input type="text" id="speak-myself" name="speak-myself" placeholder="내 답변" required>
+        </fieldset>
+        <fieldset>
+          <label for="technical-interview">다음 중 기술 면접때 가장 자신있는 분야는?</label>
+          <select name="technical-interview" id="technical-interview" required>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JAVASCRIPT</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>취업을 희망하는 날짜를 선택해주세요.</legend>
+          <label for="wish-date">날짜</label>
+          <input type="date" name="wish-date" id="wish-date" required>
+        </fieldset>
+        <fieldset>
+          <legend>업무를 시작 하기에 가장 적당한 시간을 고르세요.</legend>
+          <label for="best-time">시간</label>
+          <input type="time" name="best-time" id="best-time" required>
+        </fieldset>
+        <button type="submit">제출</button>
+        <input type="reset" value="양식 지우기">
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
