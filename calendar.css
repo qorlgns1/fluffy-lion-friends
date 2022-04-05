@@ -1,0 +1,77 @@
+body h1,h2 {
+    text-align: center;
+}
+
+.months {
+    display: flex;
+    flex-direction: row;
+}
+
+td {
+    vertical-align: top;
+    height: 60px;
+}
+
+table.month {
+    border-left: 0.5px solid darkgray;
+    border-right: 0.5px solid darkgray;
+    border-bottom: 0.5px solid darkgray;
+    padding-left: 5px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+caption.month-name {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
+th {
+    width: 50px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+div.week {
+    padding-bottom: 5px;
+}
+
+th.saturday {
+    color: rgb(103, 103, 255);
+}
+
+th.sunday {
+    color: rgb(243, 105, 105);
+}
+
+.date{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+#sat {
+    color: rgb(103, 103, 255);
+}
+
+#sun {
+    color: rgb(243, 105, 105);
+}
+
+.HTML {
+    background-color: skyblue;
+}
+
+.CSS {
+    background-color: lightsalmon;
+}
+
+.JS {
+    background-color: rgb(247, 243, 44);
+}
