@@ -15,4 +15,4 @@ likelion fluffy-lion-friends
 
 📌 branch name은 git ID 작성 : git branch git_hub_ID
 
-📌 규칙 추가하고 싶으면 readme.md에 수정 후 push 하세요
+📌 규칙 추가시 readme.md에 수정 후 push
