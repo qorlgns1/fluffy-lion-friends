@@ -1,4 +1,4 @@
-likelion fluffy-lion-friends
+likelion fluffy-lion-friends's assignment
 
 📌 과제 올릴 때,
 
@@ -10,7 +10,7 @@ likelion fluffy-lion-friends
 
 1. git checkout (본인 branch)
 2. git add .
-3. git commit -m "과제명\_git ID"
+3. git commit -m "과제명\_git hub ID"
 4. git push origin (본인 branch)
 
 📌 branch name은 git ID 작성 : git branch git_hub_ID
