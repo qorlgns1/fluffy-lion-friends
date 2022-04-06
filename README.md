@@ -4,7 +4,7 @@ likelion fluffy-lion-friends
 
 1. 220000\_과제명 폴더에서
 2. 본인 깃 아이디 폴더 생성 후 그 안에서 과제 업로드
-3. 최상위 폴더(fluffy-lion-friends)에서
+3. 최상위 폴더(fluffy-lion-friends)에서 git push
 
 📌 git에 올리는 방법!
 
