@@ -1,0 +1,82 @@
+.sign-up-header {
+  margin: 70px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-header h1 {
+  margin-bottom: 35px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.sign-up-header p {
+  width: 60%;
+  opacity: 0.45;
+  line-height: 20px;
+  font-size: 17px;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+.email-form p {
+  text-align: center;
+  opacity: 0.45;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.email-form input[tyoe="submit"] {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 17px;
+  padding: 20px 0;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+
+.email-form input[type="submit"]:hover {
+  background-color: var(--yellow);
+}
+
+.daum-id {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  margin: 0 30px;
+}
+
+.daum-id p {
+  opacity: 0.45;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.daum-id a {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+input[type="submit"] {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 17px;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  font-size: 18px;
+  padding: 18px 0;
+  margin-bottom: 10px;
+}

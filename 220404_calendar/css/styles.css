@@ -1,0 +1,47 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  margin-bottom: 30px;
+}
+
+thead,
+tbody {
+  text-align: center;
+}
+
+caption {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 15px;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+.sunday {
+  color: tomato;
+}
+
+.holiday {
+  color: chocolate;
+}
+
+.saturday {
+  color: teal;
+}
+
+.last-date {
+  color: rgba(0, 0, 0, 0.2);
+}

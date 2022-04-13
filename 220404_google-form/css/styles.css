@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(230, 227, 238);
+  padding: 5px 15px;
+}
+
+header {
+  background-color: white;
+  border: 1px solid rgb(222, 223, 226);
+  border-top: 15px solid rgb(97, 61, 177);
+  border-radius: 15px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  background-color: white;
+  border: 1px solid rgb(222, 223, 226);
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 15px 0 25px 20px;
+}
+input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  size: 100;
+  width: 90%;
+}
+
+input[type="submit"] {
+  height: 40px;
+  width: 80px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: azure;
+  background-color: rgb(97, 61, 177);
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
